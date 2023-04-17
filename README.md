@@ -1,22 +1,6 @@
-Title of the project:  Data Crawling from Quotes Store Website using Scrapy
-Website link: http://quotes.toscrape.com
+$Title of the project:  Data Crawling from Quotes Store Website using Scrapy
+$Website link: https://www.amazon.in/s?i=stripbooks&bbn=976389031&rh=n%3A976389031%2Cp_n_publication_date%3A2684819031%2Cp_n_feature_three_browse-bin%3A9141482031&dc&qid=1681708995&rnid=9141481031&ref=sr_pg_2
 
-Data Contains Quote, Autor_name, Tags of the specific Quote.
-Data From all the pages scraped and stored into :
-1. csv formatted files (named as: items.csv)
-2. json formatted files (named as: items.json)
-3. xml formatted files (named as: items.xml)
-
-Most Significantly, The data is crawled and stored in a SQLite3 database, which can be available for further processes for data insights.
-It is stored as myquotes.db
-
-Do install requirements.txt before starting the project:
-pip install -r requirements.txt
-
-Then you are good to go.
-
-No need to worry about the format of the code, it is well formatted using "black".
-Use below commands after completing the project, on project folder:
-$ pip install black 
-$ black .
-
+$Data Contains Book Title, Author, Price, Image link.
+$Data From all the pages scraped and stored into :
+$csv formatted files (named as: amazonData.csv)
